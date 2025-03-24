@@ -60,11 +60,6 @@
         </p>
       </div>
     </section>
-  
-    <!-- Footer -->
-    <footer class="bg-blue-900 text-white text-center p-4">
-      &copy; {new Date().getFullYear()} Sri Balaji Suppliers and Sounds. All rights reserved.
-    </footer>
   </main>
   
   
