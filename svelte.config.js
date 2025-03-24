@@ -2,7 +2,6 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
-const dev = process.env.NODE_ENV === 'development';
 const config = {
   preprocess: vitePreprocess(),
 
@@ -15,7 +14,7 @@ const config = {
       }
     ),
     paths: {
-      base: dev ? '' : '/sri-balaji-suppliers'
+      base: '/sri-balaji-suppliers'
     },
     prerender: {
       handleMissingId: 'ignore'
